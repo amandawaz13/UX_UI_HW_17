@@ -1,0 +1,102 @@
+
+body{
+    background-color: #EBE4D9;
+}
+
+header{
+    font-family: Gilgan;
+    margin: 0;
+    border-bottom-style: solid;
+    border-color: #D62E2B;
+}
+
+.inline-block{
+    display: flex;
+    vertical-align:top;   
+}
+
+.positionBottom{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+
+.logo{
+    width:23%;
+    padding:1%;
+    
+
+}
+
+nav{
+    padding:1%;
+}
+
+.positionBottom li{
+    margin-left: 10px;
+}
+h1{
+    font-size: 75px;
+    font-family:Dream Cottage;
+    color: #D62E2B;
+    text-align: center;
+    margin: 10px; 
+}
+
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.logo{
+    text-align:center;
+}
+
+.heroImg{
+    /*height: 300px;*/
+    padding:10px;
+}
+
+p{
+    font-family: Gilgan;
+   
+}
+
+.content{
+    /* width:500px; */
+    margin:0 auto;
+
+}
+
+footer{ 
+    border-style: solid;
+    border-color: #D62E2B;
+}
+
+.footer{ 
+    text-align: center;
+    font-family: Gilgan;
+    display: flex;
+    justify-content: center;
+}   
+
+.footer li {
+    margin-left: 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMe {
+    margin-left: 15px;
+    width: 300px;
+}
+
+.navbar {
+    display: flex;
+}
