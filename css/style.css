@@ -5,9 +5,14 @@ body{
 
 header{
     font-family: Gilgan;
-    margin: 0;
+    margin: 20px;
     border-bottom-style: solid;
     border-color: #D62E2B;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
 }
 
 .inline-block{
@@ -18,31 +23,36 @@ header{
 .positionBottom{
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 
-
+.talk{
+    text-align: right;
+    align-items: center;
+}
 
 .logo{
+    text-align: center;
     width:23%;
-    padding:1%;
-    
-
-}
-
-nav{
     padding:1%;
 }
 
 .positionBottom li{
     margin-left: 10px;
 }
+
 h1{
     font-size: 75px;
     font-family:Dream Cottage;
     color: #D62E2B;
     text-align: center;
-    margin: 10px; 
+    margin: 5px; 
+}
+
+
+.purple{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -58,6 +68,7 @@ ul{
 .heroImg{
     /*height: 300px;*/
     padding:10px;
+    height: auto;
 }
 
 p{
@@ -74,6 +85,8 @@ p{
 footer{ 
     border-style: solid;
     border-color: #D62E2B;
+    margin: 30px;
+    padding: 30px;
 }
 
 .footer{ 
@@ -81,11 +94,8 @@ footer{
     font-family: Gilgan;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }   
-
-.footer li {
-    margin-left: 15px;
-}
 
 .flex {
     display: flex;
@@ -95,6 +105,10 @@ footer{
 .aboutMe {
     margin-left: 15px;
     width: 300px;
+}
+
+.aboutMeP {
+    background-image:url('./images/Vector2-1.png')
 }
 
 .navbar {
